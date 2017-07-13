@@ -4,11 +4,12 @@ var totalWebsites = 0;
 var fail = 0;
 var pass = 0;
 var finalFailReport = [];
+var to = 50000;
 
 var serverIp = process.argv.slice(2)[0];
 
 web.websites.forEach(function (element) {
-    isReachable(element.domain).then(res => {
+    isReachable(element.domain,{timeout:to}).then(res => {
         totalWebsites++;
         console.log(element.domain, res)
         if (res.reachable) {
@@ -32,5 +33,7 @@ function done() {
     console.log("Total fail:", fail)
     console.log("Total Pass:", pass)
     console.log("Total :", totalWebsites)
+    console.log("Timeout :", to)
+
     console.log(finalFailReport)
 }
