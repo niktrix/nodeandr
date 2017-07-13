@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-      "is-reachable-r": "^2.3.3"
+      "is-reachable-r": "^2.3.4"
   }
 }
