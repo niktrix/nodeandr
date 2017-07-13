@@ -1,12 +1,29 @@
 const isReachable = require('is-reachable-r');
 const web = require('./websites.json');
+const extIP = require('external-ip');
+ var serverIp = process.argv.slice(2)[0];
+
+let getIP = extIP({
+    replace: true,
+    services: ['http://ifconfig.co/x-real-ip', 'http://ifconfig.io/ip'],
+    timeout: 600,
+    getIP: 'parallel',
+    userAgent: 'Chrome 15.0.874 / Mac OS X 10.8.1'
+});
+ 
+getIP((err, ip) => {
+    if (err) {
+        throw err;
+    }
+    serverIp = ip;
+ });
+ 
 var totalWebsites = 0;
 var fail = 0;
 var pass = 0;
 var finalFailReport = [];
 var to = 50000;
 
-var serverIp = process.argv.slice(2)[0];
 
 web.websites.forEach(function (element) {
     isReachable(element.domain,{timeout:to}).then(res => {
