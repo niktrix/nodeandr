@@ -1,24 +1,154 @@
 {
-    "websites": [{
-            "domain": "netflix.com"
-        },
-        {
-            "domain": "google.com"
-        },
-        {
-            "domain": "youtube.com"
-        },
-        {
-            "domain": "serials.ws"
-        },
-         {
-            "domain":  "extratorrent.cc"
-        },
-        {
-            "domain": "screensavers.com"
-        },
-         {
-            "domain": "dsfhdksf.com"
-        }
-    ]
+	"websites": [{
+			"domain": "Google.com"
+		},
+		{
+			"domain": "Youtube.com"
+		},
+		{
+			"domain": "Facebook.com"
+		},
+		{
+			"domain": "Reddit.com"
+		},
+		{
+			"domain": "Amazon.com"
+		},
+		{
+			"domain": "Yahoo.com"
+		},
+		{
+			"domain": "Wikipedia.org"
+		},
+		{
+			"domain": "Twitter.com"
+		},
+		{
+			"domain": "Ebay.com"
+		},
+		{
+			"domain": "Netflix.com"
+		},
+		{
+			"domain": "Imgur.com"
+		},
+		{
+			"domain": "Linkedin.com"
+		},
+		{
+			"domain": "Instagram.com"
+		},
+		{
+			"domain": "Craigslist.org"
+		},
+		{
+			"domain": "Twitch.tv"
+		},
+		{
+			"domain": "Live.com"
+		},
+		{
+			"domain": "Tumblr.com"
+		},
+		{
+			"domain": "Pornhub.com"
+		},
+		{
+			"domain": "Diply.com"
+		},
+		{
+			"domain": "T.co"
+		},
+		{
+			"domain": "Wikia.com"
+		},
+		{
+			"domain": "Pinterest.com"
+		},
+		{
+			"domain": "Bing.com"
+		},
+		{
+			"domain": "Chase.com"
+		},
+		{
+			"domain": "Microsoftonline.com"
+		},
+		{
+			"domain": "Cnn.com"
+		},
+		{
+			"domain": "Livejasmin.com"
+		},
+		{
+			"domain": "Imdb.com"
+		},
+		{
+			"domain": "Paypal.com"
+		},
+		{
+			"domain": "Espn.com"
+		},
+		{
+			"domain": "Office.com"
+		},
+		{
+			"domain": "Nytimes.com"
+		},
+		{
+			"domain": "Yelp.com"
+		},
+		{
+			"domain": "Apple.com"
+		},
+		{
+			"domain": "Walmart.com"
+		},
+		{
+			"domain": "Bankofamerica.com"
+		},
+		{
+			"domain": "Xvideos.com"
+		},
+		{
+			"domain": "Wellsfargo.com"
+		},
+		{
+			"domain": "Microsoft.com"
+		},
+		{
+			"domain": "Metropcs.mobi"
+		},
+		{
+			"domain": "Salesforce.com"
+		},
+		{
+			"domain": "Zillow.com"
+		},
+		{
+			"domain": "Blogspot.com"
+		},
+		{
+			"domain": "Msn.com"
+		},
+		{
+			"domain": "Washingtonpost.com"
+		},
+		{
+			"domain": "Github.com"
+		},
+		{
+			"domain": "Dropbox.com"
+		},
+		{
+			"domain": "Stackoverflow.com"
+		},
+		{
+			"domain": "Wordpress.com"
+		},
+		{
+			"domain": "Indeed.com"
+
+		}
+	]
 }
